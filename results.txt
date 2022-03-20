@@ -1,0 +1,4 @@
+QuestionNumber;Timestamp;CorrectAnswersAmount;Question;Answer1;Answer2;Answer3;Answer4;CorrectAnswer(s);
+1;HH:MM:SS;0;0;0;0;0;0;0;0;0;0;
+2;HH:MM:SS;0;0;0;0;0;0;0;0;0;0;
+3;HH:MM:SS;0;0;0;0;0;0;0;0;0;0;

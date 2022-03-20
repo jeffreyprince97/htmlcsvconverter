@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel='stylesheet' href='static/stylesheet.css'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+    <meta http-equiv='X-UA-Compatible' content='IE=Edge, chrome=1'>
+    <meta http-equiv='Cache-control' content='no-store'>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+
+
+
+<title> csv generator </title>
+
+
+
+<form action='' method='post'>
+    <div class="QContainer" id="QContainer">
+        <input type="text" id="totalquestions" name="total" value="0" style="visibility: hidden;">
+
+    </div>
+    
+        
+    
+    </div>
+    <div class="buttons">
+        <button class="add" onclick="add(); return false;">
+            Add question
+        </button> </br>
+        <button class="remove" onclick="remove(); return false;">
+            Remove last question
+        </button> </br>
+        <input type="submit" value="Generate .csv"/>
+    </div>
+</form>
+
+<meta charset='utf-8'>
+</html>
+
